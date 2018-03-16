@@ -34,7 +34,6 @@ public class MenuGlowne extends AppCompatActivity {
         View.OnClickListener m = new View.OnClickListener(){
             public void onClick(View v){
 
-                //getActivity().finish();
                 System.exit(0);
             }
 

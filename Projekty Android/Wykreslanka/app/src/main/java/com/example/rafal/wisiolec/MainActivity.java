@@ -394,7 +394,7 @@ if(punktacja>sharedPreferences.getInt("BestScore",0)){
 }
 odblokujPrzyciski();
         if (licznik_wyrazu==10){
-            wyraz.setText("Brawo wygrałeś !!! Jesteś nadczłowiekiem");
+            wyraz.setText("Brawo wygrałeś !!!");
             zablokuj_przyciski();
             handler.postDelayed(new Runnable() {
                 @Override
